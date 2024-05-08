@@ -38,7 +38,7 @@ jobs:
           cache: 'npm'
 
       - name: Install dependencies
-        run: npm i
+        run: npm ci --include=optional
 
       - name: Build
         run: npm run build
