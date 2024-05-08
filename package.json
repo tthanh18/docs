@@ -18,5 +18,8 @@
     "@types/node": "^16",
     "@types/node-sass": "^4.11.7",
     "tailwindcss": "^3.4.3"
+  },
+  "optionalDependencies": {
+    "@rspress/mdx-rs-linux-x64-gnu": "*"
   }
 }
