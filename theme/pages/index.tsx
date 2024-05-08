@@ -25,7 +25,7 @@ export function HomeLayout() {
           <NoSSR>
             <div className="pb-20 flex justify-center">
               {/* <AnnouncementVideo /> */}
-              video
+              Video demo
             </div>
           </NoSSR>
           <HomeFeature features={frontmatter.features as Feature[]} />
